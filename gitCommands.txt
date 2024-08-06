@@ -1,0 +1,19 @@
+step1: Execute config commands only once
+
+git init
+
+git config --global user.name "arunadv30"
+git config --global user.email "dvaruna97@gmail.com"
+
+---------------------------------------------------------------------------
+
+step2:
+
+echo "# OM_V22" >> README.md
+git init
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arunadv30/OM_V22.git
+git push -u origin main

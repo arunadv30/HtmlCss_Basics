@@ -1,0 +1,13 @@
+.abc{
+  background-color: red;
+}
+#xyz{
+  background-color: blueviolet;
+}
+h1{
+  background-color: green;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
