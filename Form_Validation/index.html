@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="./validate.js" type="text/javascript" ></script>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <!-- <button onclick="validate_user()">Click</button> -->
+     <form onsubmit="return validate_user()">
+      <label>User Name:</label>
+      <input type="text" id="uname"> <br>
+      <span id="unMsg"  style="background-color: red;"></span><br>
+      
+      <label>Password::</label>
+      <input type="password" id="psw"> <br>
+      <span id="upMsg" style="background-color: red;"></span><br>
+      <input type="submit" value="Login">
+     </form>
+  </body>
+</html>
